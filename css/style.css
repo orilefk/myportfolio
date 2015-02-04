@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 		line-height: 1;
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Josefin Slab', sans-serif;
 		-webkit-font-smoothing:antialiased;
 }
 ol, ul {
@@ -64,29 +64,32 @@ table {
 }
 body {
     /* Typography Declarations */
-    color: #FFF;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    color: #272f32;
+    font-size: 1.2em;
+    font-family: "Josefin Slab", "Helvetica Neue", sans-serif;
 }
+
+
+
 /*Top navigation section*/
 
 .top-navigation {
-	background-color: #272f32;
+	background-color: #FFFFFF;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 }
 .top-navigation > .content {
-	height: 4.375rem;
+	height: 4.2rem;
 
 }
-.top-navigation > .content > .logo {
-	height: 4.375rem;
+.top-navigation .logo {
+	height: 3.5rem;
+	margin-top: 0.5rem;
 }
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
-	color: #FFFFFF;
+	color: #272f32;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
 	-webkit-font-smoothing:antialiased;
@@ -97,7 +100,161 @@ body {
 	margin-left: 1.563rem;
 
 }
+
 .top-navigation .links li:hover {
 	color: #9dbdc6;
 	cursor: pointer;
 }
+/*intro page*/
+
+.introduction {
+	background-color: #FFFFFF;
+	height: 46.8rem;
+	overflow: auto;
+}
+.introduction .content {
+	padding: 10em 0;
+    background: url('../images/splash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.introduction h1 {
+	margin-top: 20.2rem;
+	margin-bottom: 0rem;
+	margin-right: 2.1rem;
+	font-size: 2.5rem;
+	color: #DAEAEF;
+	font-weight: 300;
+	text-align: center;
+}
+.projectspage, .aboutpage{
+	background-color: #FFFFFF;
+	height: 48.6rem;
+	overflow: auto;
+}
+.aboutpage .profpic {
+	margin-bottom: 2rem;
+}
+.aboutpage .copy {
+	margin-top: 2rem;
+	max-width: 20rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.header {
+	margin-top: 2rem;
+	font-size: 2rem;
+	font-weight: 300;
+	margin-left: 2rem;
+	font-family: "Arvo";
+}
+.content .profpic,
+.projectspage .content .aboutpage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	max-width: 20rem;
+}
+
+
+.projects-section {
+	margin-top: 2rem;
+	text-align: center;
+}
+.projects, .top-navigation a {
+	text-decoration: none;
+	color: #272f32;
+}
+.projects-section .projects > li {
+	width: 50%;
+	float: left;
+}
+.projects-section .projects > li:hover {
+		cursor: pointer;
+}
+.projects-section .project-caption > h3 {
+	margin-top: 1.5rem;
+	font-size: 1.2rem;
+	font-weight: 450;
+} 	
+a:link {
+	text-decoration: none;
+	color: #272f32;
+}
+.social {
+	background-color: #272f32;
+	overflow: auto;
+	padding-bottom: 6rem;
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+	padding: 0 1rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	width: 60rem;
+
+}
+.social .content > h5 {
+	margin-top: 2rem;
+	color: #DAEAEF;
+
+}
+.social a {
+	color: #DAEAEF;
+}
+.social .icons > li{
+	padding: 50px 0 0 0;
+	text-align: center;
+	margin: 0rem 2rem;
+	font-size: 100px;
+	color: #DAEAEF;
+	display: inline-block;
+}
+
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
+.social li:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
