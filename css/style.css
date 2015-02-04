@@ -69,13 +69,6 @@ body {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body {
-    background-color: LightGray;
-}
-
-div {
-    border: 1px solid Chocolate;
-}
 
 /*Top navigation section*/
 
@@ -159,7 +152,45 @@ div {
 	font-size: 1.2rem;
 	font-weight: 450;
 } 	
+.social {
+	background-color: #272f32;
+	overflow: auto;
+	padding-bottom: 6rem;
+	text-align: center;
+}
 
+hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+	padding: 0 1rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	width: 60rem;
+
+}
+.social .content > h5 {
+	margin-top: 2rem;
+	color: #DAEAEF;
+
+}
+.social .icons > li{
+	padding: 50px 0 0 0;
+	text-align: center;
+	margin: 0rem 2rem;
+	font-size: 100px;
+	color: #DAEAEF;
+	display: inline-block;
+}
+
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
+.social li:hover {
+	cursor: pointer;
+}
 
 
 
