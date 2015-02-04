@@ -73,7 +73,7 @@ body {
 /*Top navigation section*/
 
 .top-navigation {
-	background-color: #272f32;
+	background-color: #FFFFFF;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -88,7 +88,7 @@ body {
 .top-navigation .links {
 	float: right;
 	font-family: 'Roboto', sans-serif;
-	color: #FFFFFF;
+	color: #272f32;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
 	-webkit-font-smoothing:antialiased;
@@ -110,10 +110,21 @@ body {
 	height: 46.8rem;
 	overflow: auto;
 }
+.introduction .content {
+	padding: 10em 0;
+    background: url('../images/splash.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
 .introduction h1 {
-	margin-top: 23rem;
-	font-size: 2.8rem;
-	color: #272f32;
+	margin-top: 22rem;
+	margin-bottom: 2rem;
+	margin-right: 2.4rem;
+	font-size: 2.5rem;
+	color: #DAEAEF;
 	font-weight: 300;
 	text-align: center;
 }
