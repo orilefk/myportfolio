@@ -1,0 +1,103 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+		line-height: 1;
+		font-family: 'Roboto', sans-serif;
+		-webkit-font-smoothing:antialiased;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.content {
+	padding: 0 1rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	width: 60rem;
+}
+body {
+    /* Typography Declarations */
+    color: #FFF;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+/*Top navigation section*/
+
+.top-navigation {
+	background-color: #272f32;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+.top-navigation > .content {
+	height: 4.375rem;
+
+}
+.top-navigation > .content > .logo {
+	height: 4.375rem;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	-webkit-font-smoothing:antialiased;
+}
+
+.top-navigation .links li{
+	display: inline-block;
+	margin-left: 1.563rem;
+
+}
+.top-navigation .links li:hover {
+	color: #9dbdc6;
+	cursor: pointer;
+}
