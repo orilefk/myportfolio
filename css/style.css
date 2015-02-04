@@ -68,10 +68,7 @@ body {
     font-size: 1.2em;
     font-family: "Josefin Slab", "Helvetica Neue", sans-serif;
 }
-a:link {
-	text-decoration: none;
-	color: #272f32;
-}
+
 
 
 /*Top navigation section*/
@@ -102,6 +99,7 @@ a:link {
 	margin-left: 1.563rem;
 
 }
+
 .top-navigation .links li:hover {
 	color: #9dbdc6;
 	cursor: pointer;
@@ -155,6 +153,10 @@ a:link {
 	margin-top: 2rem;
 	text-align: center;
 }
+.projects, .top-navigation a {
+	text-decoration: none;
+	color: #272f32;
+}
 .projects-section .projects > li {
 	width: 50%;
 	float: left;
@@ -167,7 +169,10 @@ a:link {
 	font-size: 1.2rem;
 	font-weight: 450;
 } 	
-
+a:link {
+	text-decoration: none;
+	color: #272f32;
+}
 .social {
 	background-color: #272f32;
 	overflow: auto;
@@ -189,6 +194,9 @@ hr {
 	margin-top: 2rem;
 	color: #DAEAEF;
 
+}
+.social a {
+	color: #DAEAEF;
 }
 .social .icons > li{
 	padding: 50px 0 0 0;
