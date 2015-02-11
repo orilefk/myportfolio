@@ -132,7 +132,6 @@ body {
 }
 .projectspage, .aboutpage{
 	background-color: #FFFFFF;
-	height: 48.6rem;
 	overflow: auto;
 }
 .aboutpage .profpic {
