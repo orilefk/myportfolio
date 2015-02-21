@@ -78,6 +78,7 @@ body {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	opacity: .92;
 }
 .top-navigation > .content {
 	height: 4.2rem;
