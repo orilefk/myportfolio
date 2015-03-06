@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+
+//	Program to allow slow scrolling from menu items
 	var aboutTopPosition = $('.aboutpage').offset().top;
 	var projectsTopPosition = $('.projectspage').offset().top;
 	var contactTopPosition = $('.social').offset().top;
@@ -20,4 +23,6 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop:homeTopPosition}, 'slow');
 		return false;
 	});
+
+
 });
