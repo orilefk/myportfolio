@@ -130,7 +130,13 @@ body {
 	color: #DAEAEF;
 	font-weight: 300;
 	text-align: center;
+
 }
+@media (max-width: 900px) {
+        .introduction h1 {
+          font-size: 1.5rem;
+		  }        
+        }
 .projectspage, .aboutpage{
 	background-color: #FFFFFF;
 	overflow: auto;
@@ -242,7 +248,8 @@ hr {
 	cursor: pointer;
 }
 .projects img {
-	box-shadow: 5px 5px 2.5px #888888;
+	border: 1px dotted;
+	border-color: #838994;
 	border-radius: 10px;
 
 }
