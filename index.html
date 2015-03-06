@@ -18,15 +18,17 @@
   ga('create', 'UA-60032998-1', 'auto');
   ga('send', 'pageview');
   </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
 
     <nav class="top-navigation">
       <div class="content">
         <ul class="links">
-          <li><a href="#about">About</li></a>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li id="about">About</li>
+          <li id="projects">Projects</li>
+          <li id="contact">Contact</li>
           <li><a href="pdf/resume.pdf" target="_blank">Resume</a></li>
         </ul><a href="#introduction">
         <img class="logo" src="images/logo.jpg" alt="Logo Image" width="75px"></a>
@@ -37,7 +39,7 @@
         <h1>Ori Lefkovitz</h1>
       </div>
     </section>
-    <section class="aboutpage" id="about">
+    <section class="aboutpage" id="aboutpage">
       <header class="header">
         <h2>About</h2>
       </header>

@@ -241,6 +241,11 @@ hr {
 .social li:hover {
 	cursor: pointer;
 }
+.projects img {
+	box-shadow: 5px 5px 2.5px #888888;
+	border-radius: 10px;
+
+}
 
 
 
