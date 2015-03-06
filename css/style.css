@@ -161,6 +161,9 @@ body {
 	text-align: center;
 	margin-bottom: 5%;
 }
+#bio {
+	text-align: left;
+}
 .header {
 	margin-top: 2rem;
 	font-size: 2rem;
