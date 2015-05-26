@@ -171,6 +171,8 @@ body {
 	margin-left: 2rem;
 	font-family: "Arvo";
 }
+
+/*Projects section*/
 .projects-section {
 	margin-top: 2rem;
 	text-align: center;
@@ -204,10 +206,17 @@ body {
 	font-size: 1.2rem;
 	font-weight: 450;
 } 	
+.projects img {
+	border: 1px dotted;
+	border-color: #838994;
+	border-radius: 10px;
+
+}
 a:link {
 	text-decoration: none;
 	color: #272f32;
 }
+/*Footer and social*/
 .social {
 	background-color: #272f32;
 	overflow: auto;
@@ -250,12 +259,7 @@ hr {
 .social li:hover {
 	cursor: pointer;
 }
-.projects img {
-	border: 1px dotted;
-	border-color: #838994;
-	border-radius: 10px;
 
-}
 
 
 
