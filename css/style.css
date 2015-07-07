@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 		line-height: 1;
-		font-family: 'Josefin Slab', sans-serif;
+		font-family: sans-serif;
 		-webkit-font-smoothing:antialiased;
 }
 ol, ul {
@@ -60,13 +60,12 @@ table {
 	padding: 0 1rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
-	width: 60rem;
 }
 body {
     /* Typography Declarations */
     color: #272f32;
     font-size: 1.2em;
-    font-family: "Josefin Slab", "Helvetica Neue", sans-serif;
+    font-family: serif;
 }
 
 
@@ -109,7 +108,7 @@ body {
 /*intro page*/
 
 .introduction {
-	height: 46rem;
+	height: 100%;
 	width: 100%;
 	overflow: auto;
 }
@@ -122,7 +121,7 @@ body {
 	min-width: 100%;
 	min-height: 100%;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	z-index: -100;
 	transform: translateX(-50%) translateY(-50%);
 
@@ -130,13 +129,13 @@ body {
 
 
 .introduction h1 {
-	margin-top: 67%;
-	margin-bottom: -1%;
 	margin-right: 2.1rem;
 	font-size: 4.5rem;
 	color: #DAEAEF;
-	font-weight: 300;
+	font-weight: 100;
 	text-align: center;
+	margin-top: 50%;
+	margin-bottom: 3%;
 
 }
 @media (max-width: 900px) {
